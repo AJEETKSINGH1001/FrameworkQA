@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [demoqa]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="This is test suite(failed)">
+    <classes>
+      <class name="com.demoqa.framework.tests.EventRegistrationTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="setup"/>
+          <include name="testEventRegistration"/>
+        </methods>
+      </class> <!-- com.demoqa.framework.tests.EventRegistrationTest -->
+    </classes>
+  </test> <!-- This is test suite(failed) -->
+</suite> <!-- Failed suite [demoqa] -->

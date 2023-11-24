@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="demoqa">
+    <test name="This is test suite">
+        <classes>
+            <class name="com.demoqa.framework.tests.EventRegistrationTest"/>
+          <!--  <class name="com.demoqa.tests.MyTestClass2"/>-->
+            <!-- Add more classes as needed -->
+        </classes>
+    </test>
+</suite>
